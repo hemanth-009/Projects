@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive pet food shop </title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a> 
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blog</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here ..." >
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/item1.jpg"/>
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$7.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/item2.avif"/>
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$4.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/item3.jpg"/>
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$8.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Nourish Your Pet, Naturally</h3>
+            <p>Give your furry friends the best with our premium, all-natural pet food! Packed with wholesome ingredients, it’s everything they need to stay healthy, happy, and full of life.</p>
+            <a href="#" class="btn">get your now</a>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> us </h1>
+        <div class="row">
+            <div class="image">
+                <img src="./images/about-1.jpg" alt="image-of-cat">
+            </div>
+            <div class="content">
+                <h3>what makes our food special?</h3>
+                <p>Our pet food is made with high-quality, natural ingredients to give your furry friends the nutrition they deserve. Each recipe is packed with flavor and designed to keep your pets healthy and happy.</p>
+                <p>We’re all about quality and care. That’s why our food has no artificial additives or fillers—just wholesome goodness in every bite. Your pet’s well-being is our top priority!</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/menu-1.jpg" alt="menu">
+                <h3>tasty and healthy</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./images/menu-2.jpg" alt="menu">
+                <h3>tasty and healthy</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./images/menu-3.jpg" alt="menu">
+                <h3>tasty and healthy</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./images/menu-4.jpg" alt="menu">
+                <h3>tasty and healthy</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./images/menu-5.jpg" alt="menu">
+                <h3>tasty and healthy</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./images/menu-6.jpg" alt="menu">
+                <h3>tasty and healthy</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- products section starts -->
+    <section class="products" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./images/product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>pedigree</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./images/product-2.avif" alt="">
+                </div>
+                <div class="content">
+                    <h3>cat dry food</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./images/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>fish food</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- products section ends -->
+
+    <!-- review section starts -->
+    <div class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/quote-img.svg" alt="" class="quote">
+                <p>I bought this dog food for my Labrador, Max, and he loves it! His coat is shinier, and he’s more energetic since we switched. The quality ingredients and reasonable price make it a great choice—I’d highly recommend it!</p>
+                <img src="./images/review-1.jpg" alt="" class="user">
+                <h3>Jake Thompson</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/quote-img.svg" alt="" class="quote">
+                <p>I was looking for something nutritious for my Beagle, Daisy, and this dog food exceeded my expectations. She eats it eagerly, and I’ve noticed her digestion has improved too. It’s great to find a brand I can trust!</p>
+                <img src="./images/review-2.jpg" alt="" class="user">
+                <h3>Emily Carter</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/quote-img.svg" alt="" class="quote">
+                <p>My German Shepherd, Rocky, has never been so excited for mealtime! This dog food has improved his energy levels, and his coat looks healthier than ever. Great quality at a fair price—highly recommend!</p>
+                <img src="./images/review-3.jpg" alt="" class="user">
+                <h3>Mark Evans</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- review section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>contact</span> us </h1>
+        <div class="row">
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60901.26064963997!2d78.29857475873156!3d17.443970413734196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93a276decedf%3A0x2c12e79e6f9344e2!2sGachibowli%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1732733005836!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputbox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputbox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="inputbox">
+                    <span class="fas fa-phone"></span>
+                    <input type="tel" placeholder="Number">
+                </div>
+                <input type="submit" class="btn" value="contact now">
+            </form>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- blog section starts -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> our <span>blogs</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Wholesome Pet Nutrition</a>
+                    <span>by admin / 25th june, 2022</span>
+                    <p>Discover premium-quality pet food crafted to nourish your furry friends and keep tails wagging!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Tail-Wagging Meals</a>
+                    <span>by admin / 13th may, 2023</span>
+                    <p>Nutritious, delicious meals that keep your pets healthy and happy!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./images/menu-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Healthy Pet Choices</a>
+                    <span>by admin / 04th july, 2024</span>
+                    <p>Balanced pet food made to support health, energy, and joy in every bite!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer" id="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blog</a>
+        </div>
+        <div class="credit">created by <span>G. Yeshwanth varma</span> | all rights reserved</div>
+    </section>
+    <!-- footer section ends -->
+
+    <script src="script.js"></script>
+</body>
+</html>
